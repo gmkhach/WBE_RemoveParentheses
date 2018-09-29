@@ -43,6 +43,7 @@ namespace WBE_RemoveParentheses
             {
                 if (ch == '(')
                 {
+                    output += ch;
                     include = false;
                 }
                 else if (ch == ')')
