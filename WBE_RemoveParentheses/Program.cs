@@ -23,14 +23,14 @@ namespace WBE_RemoveParentheses
                     Console.Write("Input a string\n\n>>> ");
                     string input = Console.ReadLine();
                     Console.WriteLine("\nOutput: " + RemoveParentheses(input));
-                    Console.Write("\nPress Enter to try another string...");
-                    Console.ReadLine();
-                    Console.Clear();
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("\n" + ex.Message);
                 }
+                Console.Write("\nPress Enter to try another string...");
+                Console.ReadLine();
+                Console.Clear();
             } while (true);
         }
 
